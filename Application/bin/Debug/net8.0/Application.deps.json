@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Application/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Persistence": "1.0.0",
+          "TridentGoalSeek": "1.0.5"
+        },
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
+      "TridentGoalSeek/1.0.5": {
+        "runtime": {
+          "lib/netstandard1.0/TridentGoalSeek.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "Persistence/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TridentGoalSeek/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JH+LjYU76DnenqWwXS8EmCg/TueOY5Fiy61kRlgVEpIwICHr/XcMu8E/Fd+lX+G36HrZz1qCmDzvb1tPJUnRTg==",
+      "path": "tridentgoalseek/1.0.5",
+      "hashPath": "tridentgoalseek.1.0.5.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

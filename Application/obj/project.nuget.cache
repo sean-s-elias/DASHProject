@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g/w0+qXoyiI=",
+  "success": true,
+  "projectFilePath": "/Users/seanelias/Codebase/GoalSeek/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/seanelias/.nuget/packages/tridentgoalseek/1.0.5/tridentgoalseek.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

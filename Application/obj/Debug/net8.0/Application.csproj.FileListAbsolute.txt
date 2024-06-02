@@ -1,0 +1,17 @@
+/Users/seanelias/Codebase/GoalSeek/Application/bin/Debug/net8.0/Application.deps.json
+/Users/seanelias/Codebase/GoalSeek/Application/bin/Debug/net8.0/Application.dll
+/Users/seanelias/Codebase/GoalSeek/Application/bin/Debug/net8.0/Application.pdb
+/Users/seanelias/Codebase/GoalSeek/Application/bin/Debug/net8.0/Domain.dll
+/Users/seanelias/Codebase/GoalSeek/Application/bin/Debug/net8.0/Persistence.dll
+/Users/seanelias/Codebase/GoalSeek/Application/bin/Debug/net8.0/Domain.pdb
+/Users/seanelias/Codebase/GoalSeek/Application/bin/Debug/net8.0/Persistence.pdb
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Application.dll
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/refint/Application.dll
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/Application.pdb
+/Users/seanelias/Codebase/GoalSeek/Application/obj/Debug/net8.0/ref/Application.dll
