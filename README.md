@@ -15,4 +15,9 @@ Frontend has the following
 
 
 
+Note: 
+To run the frontend locally then need this command npm run dev
+
+
+
 
