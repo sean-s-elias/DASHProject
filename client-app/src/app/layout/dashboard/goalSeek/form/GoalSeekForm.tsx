@@ -12,26 +12,19 @@ export default function GoalSeekForm(props: Props) {
         input: '',
         multiplier: '',
         maximumIterations: '',
-        requiredOutput: '',
-        output: ''
+        requiredOutput: ''
     }   
-
-    //console.log("Props", props.goalSeek)
-    //console.log("Output", props)
 
     const [goalSeek, SetGoalSeek] = useState(initialState);
 
     function handleSubmit() {
        props.create(goalSeek);
-       //console.log('Handle submit', goalSeek);
     }
 
     function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
         const {name, value} = event.target;
         SetGoalSeek({...goalSeek, [name]: value});
     }
-
-    /* <Form.Input placeholder = 'Output' value={props.goalSeek} name='Output' />*/
     
     return (
         <Segment clearing>
@@ -42,6 +35,7 @@ export default function GoalSeekForm(props: Props) {
                 <Form.Input placeholder = 'RequiredOutput' value={goalSeek.requiredOutput} name='requiredOutput' onChange={handleInputChange}/>
                 <Button positive type="submit" content = 'Submit' />
             </Form>
+            <Form.Input placeholder = 'Output' value={props.goalSeek} name='Output' />
         </Segment>
     )
 }
