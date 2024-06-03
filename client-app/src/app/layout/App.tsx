@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './styles.css'
 import { Container } from 'semantic-ui-react';
 import NavBar from './NavBar';
@@ -8,26 +8,13 @@ import agent from '../api/agent';
 
 function App() {
   const [goalSeek, SetGoalSeek] = useState<GoalSeek>();
-  //const [weather, SetWeather] = useState<Weather>();
-
-  useEffect(() => {
-    
-    /*axios.get<Weather>('http://localhost:5000/weatherforecast').then(response => {
-      SetWeather(response.data)
-    });*/
-    
-    agent.GoalSeekCalculation.create(goalSeek).then(response => {
-      SetGoalSeek(response.data)
-      console.log("response.data", response.data);
-    });
-  }, []);
 
   function handleGoalSeekCalculate(goalSeek: GoalSeek) {
 
-    SetGoalSeek(goalSeek)
+    SetGoalSeek(goalSeek);
+
     agent.GoalSeekCalculation.create(goalSeek).then(response => {
-      SetGoalSeek(response?.data)
-      console.log("response.data", goalSeek);
+      SetGoalSeek(response?.data);
     });
   }
 
