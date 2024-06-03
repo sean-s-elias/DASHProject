@@ -8,20 +8,18 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class GoalseekController : ControllerBase, IGoalSeekAlgorithm
     {
-        private readonly IGoalSeekAlgorithm _goalSeekAlgorithm;
-        private readonly IGoalSeekService _goalSeekService;
-
         private int multiplier;
 
-        public GoalseekController(IGoalSeekAlgorithm goalSeekAlgorithm, IGoalSeekService goalSeekService)
-        {
-            _goalSeekAlgorithm = goalSeekAlgorithm;
-            _goalSeekService = goalSeekService;
-        }
+        public GoalseekController() { }
 
         [HttpPost]
         public async Task<ActionResult> Galseek([FromForm] GoalSeekRequest request)
         {
+            if (request.Multiplier < 0 || request.Input < 0 || request.MaximumIterations < 0 || request.RequiredOutput < 0)
+            {
+                throw new InvalidOperationException("Invalid data input");
+            }
+
             var cal =  GoalseekFunction(request.Multiplier);
             var goalSeeker = new GoalSeek(cal);
 
